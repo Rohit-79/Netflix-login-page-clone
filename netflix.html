@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Netflix login</title>
+        <style>
+            body{
+                background-color: #eee;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(netflix.webp);
+                 
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                flex-direction: column;
+                background-color: white;
+                border-radius: 10px;
+                width: 300px;
+                padding: 15px;
+                align-self: center;
+                background-color: rgba(0, 0, 0, 0.685);
+            }
+            input{
+                display: flex;
+                flex-direction: column;
+                width: 280px;
+                height: 40px;
+                margin: 8px 0;
+                border-radius: 8px;
+                border: none;
+            }
+            .head{
+                position: absolute;
+                top: 15px;
+                left: 50px;
+            }
+            h2{
+                color: white;
+                font-weight: bold;
+            }
+            a{
+                list-style-type: none;
+                text-decoration: none;
+                color: #eee;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            button{
+                width: 280px;
+                height: 40px;
+                background-color: red;
+                border: none;
+                margin: 80px o;
+                border-radius: 8px;
+                color: #eee;
+                font-weight: bold;
+                margin-top: 8px;
+            }
+            p{
+                color: #eeeeee9d;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+        <img src="logo.webp" height="100px" width="200px">
+    </div>
+        <div class="container">
+        <h2>Sign In</h2>
+        <input type="text" placeholder= "E-mail or Mobile number">
+        <input type="password" placeholder="Password">
+        <button>Sign In</button>
+        <a href="#">Forgot password?</a>
+        <p>New to Netflix? <a href="#">Sign up now!</a></p>
+    </div>
+    </body>
+</html>
